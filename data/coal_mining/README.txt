@@ -1,0 +1,1 @@
+From http://people.reed.edu/~jones/141/Coal.html
