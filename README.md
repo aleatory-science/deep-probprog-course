@@ -15,4 +15,4 @@
 * Consider early what mini-project you want to do and start reading up, gathering data and generate ideas on the relevant subject.
 
 ### Acknowledgements
-This course has been developed by [Thomas Hamelryck][https://github.com/thamelry] and [Ahmad Salim Al-Sibahi](https://github.com/ahmadsalim). Thanks to [Ola Rønning](https://github.com/olaronning) for suggesting the [Variational Auto Encoders Foundations](https://arxiv.org/abs/1906.02691) paper instead of [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) which we originally proposed to read on week 3.
+This course has been developed by [Thomas Hamelryck](https://github.com/thamelry) and [Ahmad Salim Al-Sibahi](https://github.com/ahmadsalim). Thanks to [Ola Rønning](https://github.com/olaronning) for suggesting the [Variational Auto Encoders Foundations](https://arxiv.org/abs/1906.02691) paper instead of [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) which we originally proposed to read on week 3.
