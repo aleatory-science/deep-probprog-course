@@ -13,6 +13,7 @@
 ### Recommendations
 * Sometimes sampling can be slow on the CPU for complex models, so try using Google Colab and GPUs and see if that provides an improvement.
 * Consider early what mini-project you want to do and start reading up, gathering data and generate ideas on the relevant subject.
+* We recommend to make a separate larger project after finishing this course to apply the techniques in practice. This can be within research like the protein folding problem or through one of our [industrial partners](https://aleatory.science/#publications).
 
 ### Acknowledgements
 This course has been developed by [Thomas Hamelryck](https://github.com/thamelry) and [Ahmad Salim Al-Sibahi](https://github.com/ahmadsalim). Thanks to [Ola Rønning](https://github.com/olaronning) for suggesting the [Variational Auto Encoders Foundations](https://arxiv.org/abs/1906.02691) paper instead of [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) which we originally proposed to read on week 3.
