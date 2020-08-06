@@ -6,6 +6,7 @@
 * Solve Exercises for Deep Generative Models
 * Summarize the BDA exercises in a worksheet, with correct attribution.
 * Summarize the NUTS paper in 3-pages to make it easier to read
+* Update industrial outreach on Aleatory Science website to have company logos instead of table and directly point to this page instead.
 
 ### Part I - Introduction to Deep Probabilistic Programming
 
@@ -21,13 +22,29 @@
 
 
 ### Part II - Deep Probabilistic Programming Project
+The second part of the course concerns applying the techniques learned in the first part, as a project solving a practical problem. We have several types of projects depending on the interests of the student.
 
-| A | B | C | D |
-|:--:|:---:|:---:| :---:|
-| 6 | Mini-Project | Choose a reasonably interesting Bayesian model to implement in Pyro. Write a report on the model and implementation. Examples include a model from FiveThirtyEight,  TrueSkill from Microsoft or CAPTCHA breaking using PyProb. <br /> <br /> Questions to consider: What is the runtime of the system? What is the uncertainty of parameters? Does the posterior predictive distribution look reasonable? Can you make useful new predictions? | [FiveThirtyEight Methodology and Models](https://fivethirtyeight.com/tag/methodology/) <br /> <br /> [Microsoft TrueSkill Model](https://www.microsoft.com/en-us/research/publication/trueskill-2-improved-bayesian-skill-rating-system/) (Can be implemented in [Infer.NET](https://dotnet.github.io/infer/) using [Expectation Propagation](https://arxiv.org/pdf/1412.4869.pdf) instead of Pyro's Variational Inference or MCMC sampling) <br /> <br /> CAPTCHA Breaking using [Inference Compilation](https://arxiv.org/pdf/1610.09900.pdf) and [PyProb](https://pyprob.readthedocs.io/en/latest/#). You can use the experimental [PyProb bindings for Java](https://github.com/ahmadsalim/pyprob_java) and [Oxford CAPTCHA Generator](https://github.com/gbaydin/OxCaptcha). <br /> <br /> [XKCD: Asterisk Correction](https://xkcd.com/2337/) by combining Natural Language Processing and Probabilistic Programming. |
+For those interested in boosting their CV and potentially getting a student job, we warmly recommend working with one of our industrial partners on a suitable probabilistic programming project. For those interested in working with a more academic-oriented project, we have different interesting problems in Computer Science and Biology.
 
-* Consider early what mini-project you want to do and start reading up, gathering data and generate ideas on the relevant subject.
-* We recommend to make a separate larger project after finishing this course to apply the techniques in practice. This can be within research like the protein folding problem or through one of our [industrial partners](https://aleatory.science/#publicationModal4).
+#### Industrial Projects
+
+| Company | Area   | Ideas |
+|:-------:|:------:|:-----:|
+| [Relion](https://relion.dk) | Shift-planning AI | Shift planning based on worker availability, historical sales data, weather and holidays.  <br /> <br /> Employee satisfaction quantification based on previously assigned shifts. <br /> <br /> Employee shift assignment based on wishes and need |
+| [Paperflow](https://paperflow.com) | Invoice Recognition AI | Talk to us |
+| [Hypefactors](https://hypefactors.com) | Media and Reputation Tracking AI | Talk to us |
+
+#### Academic Projects
+
+| Type | Description | Notes/Links |
+|:----:|:-----------:|:-----:|
+| Computer Science | Implement a predictive scoring model for your favourite sports game, inspired by FiveThirtyEight. | [FiveThirtyEight Methodology and Models](https://fivethirtyeight.com/tag/methodology/) |
+| Computer Science | Implement a ranking system for your favourite video or board game, inspired by Microsoft TrueSkill. | [Microsoft TrueSkill Model](https://www.microsoft.com/en-us/research/publication/trueskill-2-improved-bayesian-skill-rating-system/) <br /> <br /> Can be implemented in [Infer.NET](https://dotnet.github.io/infer/) using [Expectation Propagation](https://arxiv.org/pdf/1412.4869.pdf) |
+| Computer Science | Use Inference Compilation in PyProb to implement a CAPTCHA breaker or a Spaceship Generator | [Inference Compilation](https://arxiv.org/pdf/1610.09900.pdf) and [PyProb](https://pyprob.readthedocs.io/en/latest/#). You can use the experimental [PyProb bindings for Java](https://github.com/ahmadsalim/pyprob_java). <br /> <br /> [CAPTCHA breaking](https://arxiv.org/pdf/1610.09900.pdf) with [Oxford CAPTCHA Generator](https://github.com/gbaydin/OxCaptcha). <br /> <br />  [Spaceship Generator](https://dritchie.github.io/pdf/sosmc.pdf) |
+| Computer Science | Implement asterisk corrector suggested by XKCD | [XKCD #2337: Asterisk Correction](https://xkcd.com/2337/) |
+| Biology | Auto-Encoders or Deep Markov Models for Protein Folding | [Deep Markov Model](https://arxiv.org/pdf/1609.09869.pdf) <br /> <br /> [Pyro Deep Markov Model](https://pyro.ai/examples/dmm.html) |
+| Biology | Inference Compilation for Ancestral Reconstruction | [Inference Compilation](https://arxiv.org/pdf/1610.09900.pdf) and [PyProb](https://pyprob.readthedocs.io/en/latest/#). Talk to us for details.  | 
+| Biology | Recurrent Causal Effect VAE for modelling mutations in proteins | Talk to us for details. |
 
 ## Recommendations
 * Sometimes sampling can be slow on the CPU for complex models, so try using Google Colab and GPUs and see if that provides an improvement.
