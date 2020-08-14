@@ -4,8 +4,6 @@
 * Develop and Solve new Exercises for Bayesian Regression
 * Find Dataset and Solve Exercises for Hidden Markov Models
 * Summarize the BDA exercise in a worksheet, with correct attribution.
-* Summarize the NUTS paper in 3-pages to make it easier to read
-* Update industrial outreach on Aleatory Science website to have company logos instead of table and directly point to this page instead.
 
 ### Part I - Introduction to Deep Probabilistic Programming
 
@@ -32,6 +30,7 @@ For those interested in boosting their CV and potentially getting a student job,
 | [Relion](https://relion.dk) | Shift-planning AI | Shift planning based on worker availability, historical sales data, weather and holidays.  <br /> <br /> Employee satisfaction quantification based on previously assigned shifts. <br /> <br /> Employee shift assignment based on wishes and need |
 | [Paperflow](https://paperflow.com) | Invoice Recognition AI | Talk to us |
 | [Hypefactors](https://hypefactors.com) | Media and Reputation Tracking AI | Talk to us |
+| ‹Your Company› | ‹Your Area› | Interested in collaboration with our group? contact Ahmad Salim to hear more! |
 
 #### Academic Projects
 
