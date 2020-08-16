@@ -1,8 +1,8 @@
 ## Syllabus
 
 ### TODOs
-* Develop and Solve new Exercises for Bayesian Regression
-* Find Dataset and Solve Exercises for Hidden Markov Models
+* Solve Exercise for Hidden Markov Models (Use TorusDBN as example)
+* Solve Exercises for Bayesian Regression (Use https://github.com/fivethirtyeight/data/blob/master/weather-check/weather-check.csv instead of BDA). The model is simpler but still amenable to hierarchical analysis.
 
 ### Part I - Introduction to Deep Probabilistic Programming
 
