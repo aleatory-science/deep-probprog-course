@@ -3,7 +3,6 @@
 ### TODOs
 * Develop and Solve new Exercises for Bayesian Regression
 * Find Dataset and Solve Exercises for Hidden Markov Models
-* Summarize the BDA exercise in a worksheet, with correct attribution.
 
 ### Part I - Introduction to Deep Probabilistic Programming
 
