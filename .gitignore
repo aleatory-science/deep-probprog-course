@@ -307,3 +307,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm+all,visualstudiocode,macos,windows,linux
+week4/figs/
